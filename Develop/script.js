@@ -47,5 +47,137 @@ $(function () {
     hour8.removeClass("past")
   }
 
+  if(currentHour === 9){
+    hour9.removeClass("past")
+    hour9.removeClass("future")
+  }else if (currentHour < 9){
+    hour9.removeClass("future")
+    hour9.removeClass("present")
+  }else {
+    hour9.removeClass("present")
+    hour9.removeClass("past")
+  }
+
+  if(currentHour === 10){
+    hour10.removeClass("past")
+    hour10.removeClass("future")
+  }else if (currentHour < 8){
+    hour10.removeClass("future")
+    hour10.removeClass("present")
+  }else {
+    hour10.removeClass("present")
+    hour10.removeClass("past")
+  }
+
+  if(currentHour === 11){
+    hour11.removeClass("past")
+    hour11.removeClass("future")
+  }else if (currentHour < 11){
+    hour11.removeClass("future")
+    hour11.removeClass("present")
+  }else {
+    hour11.removeClass("present")
+    hour11.removeClass("past")
+  }
+
+  if(currentHour === 12){
+    hour12.removeClass("past")
+    hour12.removeClass("future")
+  }else if (currentHour < 12){
+    hour12.removeClass("future")
+    hour12.removeClass("present")
+  }else {
+    hour12.removeClass("present")
+    hour12.removeClass("past")
+  }
+
+  if(currentHour === 13){
+    hour13.removeClass("past")
+    hour13.removeClass("future")
+  }else if (currentHour < 13){
+    hour13.removeClass("future")
+    hour13.removeClass("present")
+  }else {
+    hour13.removeClass("present")
+    hour13.removeClass("past")
+  }
+
+  if(currentHour === 14){
+    hour14.removeClass("past")
+    hour14.removeClass("future")
+  }else if (currentHour < 14){
+    hour14.removeClass("future")
+    hour14.removeClass("present")
+  }else {
+    hour14.removeClass("present")
+    hour14.removeClass("past")
+  }
+
+  if(currentHour === 15){
+    hour15.removeClass("past")
+    hour15.removeClass("future")
+  }else if (currentHour < 15){
+    hour15.removeClass("future")
+    hour15.removeClass("present")
+  }else {
+    hour15.removeClass("present")
+    hour15.removeClass("past")
+  }
+
+  if(currentHour === 16){
+    hour16.removeClass("past")
+    hour16.removeClass("future")
+  }else if (currentHour < 16){
+    hour16.removeClass("future")
+    hour16.removeClass("present")
+  }else {
+    hour16.removeClass("present")
+    hour16.removeClass("past")
+  }
+
+  if(currentHour === 17){
+    hour17.removeClass("past")
+    hour17.removeClass("future")
+  }else if (currentHour < 17){
+    hour17.removeClass("future")
+    hour17.removeClass("present")
+  }else {
+    hour17.removeClass("present")
+    hour17.removeClass("past")
+  }
+
+  if(currentHour === 18){
+    hour18.removeClass("past")
+    hour18.removeClass("future")
+  }else if (currentHour < 18){
+    hour18.removeClass("future")
+    hour18.removeClass("present")
+  }else {
+    hour18.removeClass("present")
+    hour18.removeClass("past")
+  }
+
+  if(currentHour === 19){
+    hour19.removeClass("past")
+    hour19.removeClass("future")
+  }else if (currentHour < 19){
+    hour19.removeClass("future")
+    hour19.removeClass("present")
+  }else {
+    hour19.removeClass("present")
+    hour19.removeClass("past")
+  }
+
+  if(currentHour === 20){
+    hour20.removeClass("past")
+    hour20.removeClass("future")
+  }else if (currentHour < 20){
+    hour20.removeClass("future")
+    hour20.removeClass("present")
+  }else {
+    hour20.removeClass("present")
+    hour20.removeClass("past")
+  }
+
   $("#calendarDate").text(thisTime.format("MMM D, YYYY"));
 });
