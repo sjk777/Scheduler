@@ -36,5 +36,16 @@ $(function () {
     localStorage.setItem("8pm:", hour20.children("textarea").val());
   })
 
+  if(currentHour === 8){
+    hour8.removeClass("past")
+    hour8.removeClass("future")
+  }else if (currentHour < 8){
+    hour8.removeClass("future")
+    hour8.removeClass("present")
+  }else {
+    hour8.removeClass("present")
+    hour8.removeClass("past")
+  }
+
   $("#calendarDate").text(thisTime.format("MMM D, YYYY"));
 });
