@@ -179,5 +179,8 @@ $(function () {
     hour20.removeClass("past")
   }
 
+  var storage8 = localStorage.getItem("8am: ");
+  hour8.children("textarea").append(storage8);
+
   $("#calendarDate").text(thisTime.format("MMM D, YYYY"));
 });
