@@ -182,5 +182,40 @@ $(function () {
   var storage8 = localStorage.getItem("8am: ");
   hour8.children("textarea").append(storage8);
 
+  var storage9 = localStorage.getItem("9am: ");
+  hour9.children("textarea").append(storage9);
+
+  var storage10 = localStorage.getItem("10am: ");
+  hour10.children("textarea").append(storage10);
+  var storage11 = localStorage.getItem("11am: ");
+  hour11.children("textarea").append(storage11);
+
+  var storage12 = localStorage.getItem("12pm: ");
+  hour12.children("textarea").append(storage12);
+
+  var storage13 = localStorage.getItem("1pm: ");
+  hour8.children("textarea").append(storage13);
+
+  var storage14 = localStorage.getItem("2pm: ");
+  hour8.children("textarea").append(storage14);
+
+  var storage15 = localStorage.getItem("3pm: ");
+  hour15.children("textarea").append(storage15);
+
+  var storage16 = localStorage.getItem("4pm: ");
+  hour16.children("textarea").append(storage16);
+
+  var storage17 = localStorage.getItem("5pm: ");
+  hour17.children("textarea").append(storage17);
+
+  var storage18 = localStorage.getItem("6pm: ");
+  hour18.children("textarea").append(storage18);
+
+  var storage19 = localStorage.getItem("7pm: ");
+  hour19.children("textarea").append(storage19);
+
+  var storage20 = localStorage.getItem("8pm: ");
+  hour20.children("textarea").append(storage20);
+
   $("#calendarDate").text(thisTime.format("MMM D, YYYY"));
 });
